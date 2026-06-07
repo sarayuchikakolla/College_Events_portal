@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNOVA 2026 - Events</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(to right,
+                    #f8f9fa,
+                    #eef4ff);
+        }
+
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            transition: 0.3s;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .hero {
+            padding: 60px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+
+                 TECHNOVA 2026
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="events.html">
+                            Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">
+                            Gallery
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">
+                            Registration
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Heading -->
+
+    <section class="hero">
+
+        <div class="container text-center">
+
+            <h1 class="display-4 fw-bold">
+                Upcoming Events
+            </h1>
+
+            <p class="lead text-muted">
+                Participate, Learn, Compete and Win.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Events -->
+
+    <div class="container mb-5">
+
+        <div class="row g-4">
+
+            <!-- Technical Quiz -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img src="images/quiz.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4> Technical Quiz</h4>
+
+                        <p>
+                            Test your technical knowledge
+                            and compete with students.
+                        </p>
+
+                        <p>
+                             Date: 10 March 2026
+                        </p>
+
+                        <p>
+                             Venue: Seminar Hall
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quizModal">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Hackathon -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img src="images/hackathon.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4> Hackathon</h4>
+
+                        <p>
+                            Build innovative solutions
+                            within limited time.
+                        </p>
+
+                        <p>
+                             Date: 15 March 2026
+                        </p>
+
+                        <p>
+                             Venue: Innovation Lab
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hackathonModal">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Poster Presentation -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img src="images/poster.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4> Poster Presentation</h4>
+
+                        <p>
+                            Showcase ideas through
+                            creative posters.
+                        </p>
+
+                        <p>
+                             Date: 18 March 2026
+                        </p>
+
+                        <p>
+                             Venue: Auditorium
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#posterModal">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- Coding Contest -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img src="images/coding.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4>⌨ Coding Contest</h4>
+
+                        <p>
+                            Solve challenging coding
+                            problems and compete.
+                        </p>
+
+                        <p>
+                             Date: 20 March 2026
+                        </p>
+
+                        <p>
+                             Venue: Computer Lab
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#codingModal">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Project Expo -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img src="images/expo.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4> Project Expo</h4>
+
+                        <p>
+                            Present innovative projects
+                            and demonstrate creativity.
+                        </p>
+
+                        <p>
+                             Date: 25 March 2026
+                        </p>
+
+                        <p>
+                             Venue: Exhibition Hall
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#expoModal">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Cultural Fest -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <img src="images/cultural.jpg" class="card-img-top">
+
+                    <div class="card-body">
+
+                        <h4> Cultural Fest</h4>
+
+                        <p>
+                            Showcase your talents through
+                            music, dance and arts.
+                        </p>
+
+                        <p>
+                             Date: 30 March 2026
+                        </p>
+
+                        <p>
+                             Venue: Open Ground
+                        </p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#culturalModal">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="quizModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Technical Quiz
+                    </h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    • Multiple Choice Questions <br>
+                    • Programming Concepts <br>
+                    • Aptitude Round <br>
+                    • Team Participation Allowed
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="hackathonModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Hackathon
+                    </h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    • 24 Hour Coding Challenge <br>
+                    • Team Participation <br>
+                    • Mentorship Support <br>
+                    • Exciting Prizes
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="posterModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Poster Presentation
+                    </h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    • Innovative Ideas <br>
+                    • Research Topics <br>
+                    • Creative Design <br>
+                    • Individual Participation
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="codingModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Coding Contest
+                    </h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    • Competitive Programming <br>
+                    • Data Structures <br>
+                    • Algorithms <br>
+                    • Individual Participation
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="expoModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Project Expo
+                    </h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    • Live Project Demonstration <br>
+                    • Innovation Showcase <br>
+                    • Industry Evaluation <br>
+                    • Team Participation
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="modal fade" id="culturalModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Cultural Fest
+                    </h5>
+
+                    <button class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    • Dance Competition <br>
+                    • Singing Performance <br>
+                    • Drama & Arts <br>
+                    • Group Participation
+
+                </div>
+
+                <div class="modal-footer">
+
+                    <a href="registration.html" class="btn btn-primary">
+                        Register Now
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+
+        <p>
+            © 2026 TECHNOVA | College Event Management System
+        </p>
+
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

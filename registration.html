@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Registration - TECHNOVA 2026</title>
+
+    <link href="css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <style>
+
+        body{
+            background:linear-gradient(
+                to right,
+                #f8f9fa,
+                #eef4ff
+            );
+        }
+
+        .form-container{
+            max-width:700px;
+            margin:auto;
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 5px 20px rgba(0,0,0,0.1);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold"
+               href="index.html">
+                 TECHNOVA 2026
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                 id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="index.html">
+                           Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="events.html">
+                           Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="gallery.html">
+                           Gallery
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           href="registration.html">
+                           Registration
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="contact.html">
+                           Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Heading -->
+
+    <section class="py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-5 fw-bold">
+                Event Registration
+            </h1>
+
+            <p class="lead text-muted">
+                Register for your favorite event.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Registration Form -->
+
+    <div class="container mb-5">
+
+        <div class="form-container">
+
+            <form>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Full Name
+                    </label>
+
+                    <input type="text"
+                           class="form-control"
+                           required>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Email Address
+                    </label>
+
+                    <input type="email"
+                           class="form-control"
+                           required>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Mobile Number
+                    </label>
+
+                    <input type="tel"
+                           class="form-control"
+                           required>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        College Name
+                    </label>
+
+                    <input type="text"
+                           class="form-control"
+                           required>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Select Event
+                    </label>
+
+                    <select class="form-select">
+
+                        <option>
+                            Technical Quiz
+                        </option>
+
+                        <option>
+                            Hackathon
+                        </option>
+
+                        <option>
+                            Poster Presentation
+                        </option>
+
+                        <option>
+                            Coding Contest
+                        </option>
+
+                        <option>
+                            Project Expo
+                        </option>
+
+                        <option>
+                            Cultural Fest
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Department
+                    </label>
+
+                    <input type="text"
+                           class="form-control">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label">
+                        Additional Remarks
+                    </label>
+
+                    <textarea class="form-control"
+                              rows="4"></textarea>
+
+                </div>
+
+                <button type="submit"
+                        class="btn btn-primary w-100">
+
+                    Register Now
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white text-center p-3">
+
+        <p>
+            © 2026 TECHNOVA | College Event Management System
+        </p>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - TECHNOVA 2026</title>
+
+    <link href="css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <style>
+
+        body{
+            background:linear-gradient(
+                to right,
+                #f8f9fa,
+                #eef4ff
+            );
+        }
+
+        .contact-card{
+            background:white;
+            border-radius:15px;
+            padding:30px;
+            box-shadow:0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .contact-card:hover{
+            transform:translateY(-5px);
+            transition:0.3s;
+        }
+
+        .map-box{
+            height:300px;
+            background:#e9ecef;
+            border-radius:15px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:22px;
+            font-weight:bold;
+            color:#6c757d;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold"
+               href="index.html">
+
+                 TECHNOVA 2026
+
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                 id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="index.html">
+                           Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="events.html">
+                           Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="gallery.html">
+                           Gallery
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="registration.html">
+                           Registration
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           href="contact.html">
+                           Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Heading -->
+
+    <section class="py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-5 fw-bold">
+                Contact Us
+            </h1>
+
+            <p class="lead text-muted">
+                We'd love to hear from you.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+
+    <div class="container mb-5">
+
+        <div class="row g-4">
+
+            <!-- Contact Details -->
+
+            <div class="col-lg-5">
+
+                <div class="contact-card">
+
+                    <h3 class="mb-4">
+                        Event Information
+                    </h3>
+
+                    <p>
+                         <strong>Venue:</strong><br>
+                        CVR College of Engineering,<br>
+                        Hyderabad
+                    </p>
+
+                    <p>
+                         <strong>Phone:</strong><br>
+                        +91 9876543210
+                    </p>
+
+                    <p>
+                         <strong>Email:</strong><br>
+                        technova2026@gmail.com
+                    </p>
+
+                    <p>
+                         <strong>Website:</strong><br>
+                        www.technova2026.com
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Contact Form -->
+
+            <div class="col-lg-7">
+
+                <div class="contact-card">
+
+                    <h3 class="mb-4">
+                        Send a Message
+                    </h3>
+
+                    <form>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Name
+                            </label>
+
+                            <input type="text"
+                                   class="form-control"
+                                   required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Email
+                            </label>
+
+                            <input type="email"
+                                   class="form-control"
+                                   required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Subject
+                            </label>
+
+                            <input type="text"
+                                   class="form-control">
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Message
+                            </label>
+
+                            <textarea class="form-control"
+                                      rows="5"
+                                      required></textarea>
+
+                        </div>
+
+                        <button class="btn btn-primary">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white text-center p-3">
+
+        <p>
+            © 2026 TECHNOVA | College Event Management System
+        </p>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
