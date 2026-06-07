@@ -9,7 +9,7 @@ The project is designed to simplify event participation and improve communicatio
 ---
 
 ## Live Demo
-
+https://github.com.io/sarayuchikakolla/College_Events_portal
 
 ##  Features
 
